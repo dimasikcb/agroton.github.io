@@ -1,0 +1,395 @@
+@font-face {
+  font-family: 'Work Sans';
+  src: url('font/WorkSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  font-family: 'Work Sans';
+  line-height: 1.35;
+}
+.container{
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: auto;
+}
+.containerBig{
+  max-width: 1840px;
+  padding: 0 10px;
+  margin: auto;
+}
+.headerInner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+.menuList{
+  display: flex;
+  gap: 0 30px;
+}
+.menuItm a{
+  text-transform: uppercase;
+  color: #0E0D0D;
+}
+.contact{
+  text-transform: uppercase;
+  padding: 10px 40px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 50px;
+}
+
+
+.about{
+  margin-bottom: 180px;
+}
+
+.imgBig{
+text-align: center;
+background-image: url(img/f.png);
+background-repeat: no-repeat;
+background-position: center center;
+color: #FDFDF0;
+min-height: 748px;
+}
+.aboutTitle{
+line-height: 1;
+font-size: 250px;
+text-transform: uppercase;
+font-weight: 600;
+padding-top: 70px;
+}
+.pTitle{
+font-size: 32px;
+line-height: 1.2;
+text-transform: uppercase;
+}
+
+
+.ff{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  margin-top: -55px;
+}
+.ff>a{
+  border-radius: 20px;
+  background-color: #F4F4E7;
+  max-width: 580px;
+  padding: 14px 10px;
+  color: #000000;
+}
+.achivki{
+  display: flex;
+  gap: 0 25px;
+}
+.imgbox{
+  min-width: 214px;
+  position: relative;
+}
+.btnAch{
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+.headerbox{
+  line-height: 1.3;
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.pBox{
+  font-weight: 100;
+  font-size: 14px;
+}
+.d{
+font-weight: 600;
+}
+
+
+
+.stat{
+  background-color: #F4F4E7;
+  border-radius: 20px;
+  margin-bottom: 69px;
+  padding: 30px 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+}
+.statsItm{
+  text-align: center;
+  width: 300px;
+}
+.dfg{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+
+}
+.qw{
+  color: #0E0D0D;
+  font-size: 22px;
+  opacity: 71%;
+}
+.dos{
+  color: #0E0D0D;
+  font-size: 40px;
+  opacity: 84%;
+  line-height: 47px;
+  margin-bottom: 40px;
+}
+.gh{
+  font-weight: bold;
+}
+.boxImg{
+  display: flex;
+  gap: 140px;
+}
+.asd>p{
+  margin: 5px 49px 45px 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+.yut, .s, .rty{
+  color: #F2A531;
+}
+.sp{
+  font-weight: bold;
+  color: #000000;
+}
+.dl dt{
+font-size: 18px;
+padding: 10px 0;
+}
+.dl dd{
+font-weight: 300;
+padding: 10px 0;
+opacity: .71;
+}
+.dl div{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(14, 13, 13, .23);
+  border-top: 1px solid rgb(14, 13, 13, .23);
+}
+.productWrapper{
+  padding: 50px 0;
+background-color:#F4F4E7;
+border-radius: 20px;
+}
+.kk{
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+.d{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.d .vv, .d .ooi{
+  border-radius: 10px;
+  min-height: 324px;
+  margin-bottom: 13px;
+  background-repeat: no-repeat;
+  padding: 50px 24px;
+  position: relative;
+}
+.ooi{
+  color: #000000;
+}
+.vv{
+  color:#fff;
+}
+.d a button{
+  position: absolute;
+  bottom: -12px;
+  left: -4px;
+}
+.d a h3{
+  font-weight: 400;
+  margin-bottom: 14px;
+  font-size: 30px;
+}
+.d a p{
+  font-weight: 300;
+}
+.gg{
+  display: block;
+  width: 260px;
+  margin: auto;
+  margin-top: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 94px;
+  padding: 19px 97px 19px 38px;
+  position: relative;
+}
+.gg img{
+  position: absolute;
+  right: 5px;
+  top: 3px;
+}
+
+.slogan{
+text-align: center;
+}
+.slogan h6{
+font-weight: 500;
+font-size: 40px;
+padding-top: 117px;
+text-transform: uppercase;
+}
+.slogan h2{
+  font-weight: 600;
+  line-height: 1;
+  font-size: 300px;
+  text-transform: uppercase;
+  color: #F2A531;
+}
+.slogan img{
+  margin-top: -145px;
+  width: 100%;
+}
+
+.part .container>div{
+  display: flex;
+}
+.ggg{
+  margin-top: 15px;
+  margin-left: 6px;
+}
+.ffg{
+  margin-right: -106px;
+}
+.part{
+  margin-top: 130px;
+  margin-bottom: 157px;
+}
+.fqw{
+  margin-right: 120px;
+  margin-top: 10px;
+}
+
+.fqw h6{
+font-weight: 400;
+font-size: 40px;
+margin-bottom: 210px;
+}
+.fqw{
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact-button {
+  display: inline-flex;          /* Делаем кнопку inline-flex, чтобы подстраивалась под контент */
+  align-items: center;          /* Выравнивание элементов по вертикали */
+  justify-content: space-between; /* Размещаем текст и иконку по краям */
+  background-color: #000;        /* Черный фон */
+  color: #fff;                  /* Белый текст */
+  padding: 19px 97px 19px 37px;           /* Отступы */
+  border-radius: 96px;          /* Скругленные углы */
+  font-size: 18px;
+  position: relative;
+  margin-top: 20px;
+}
+.contact-button img{
+position: absolute;
+top: 4px;
+right: 5px;
+}
+
+
+.ghb{
+  background-color: #F4F4E7;
+  padding: 100px 0;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+.hhhh{
+  display: flex;
+  justify-content: center;
+}
+.blof .containerBig .container h3{
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.ffff{
+  color: #F2A531;
+  font-size: 14px;
+  margin: 32px 0 12px;
+}
+.uyij{
+max-width: 580px;
+margin-right: 44px;
+}
+.uyioo, .uyipo{
+display: flex;
+flex-direction: row;
+}
+.uyipo h4, .uyioo h4, .uyij h4{
+font-size: 24px;
+font-weight: 500;
+}
+.azxs{
+  display: flex;
+  margin-bottom: 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.azxs img{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.azxs h4{
+  max-width: 356px;
+}
+
+.mjb{
+  max-width: 796px;
+  max-height: 432px;
+}
+.ghbn{
+  margin-left: 24px;
+}
+.ffvv{
+  display: flex;
+}
+
+
+
+footer{
+  background-color: #000000;
+  padding: 100px 0;
+  color: #ffffff;
+}
+.foterTop{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-right: 114px;
+}
+.foterBottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid #ffffff;
+  font-size: 14px;
+}
+.navi p{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.navi li{
+  margin-bottom: 15px;
+}
