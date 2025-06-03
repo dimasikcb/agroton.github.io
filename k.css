@@ -324,7 +324,6 @@ body {
 
 .fqw {
   margin-right: 120px;
-  margin-top: 10px;
 }
 
 .fqw h6 {
@@ -337,7 +336,9 @@ body {
   font-weight: 300;
   font-size: 20px;
 }
-
+.uyioo{
+  margin-bottom: 20px;
+}
 .contact-button {
   display: inline-flex;
   /* Делаем кнопку inline-flex, чтобы подстраивалась под контент */
@@ -436,6 +437,7 @@ body {
 
 .ffvv {
   display: flex;
+  justify-content: center;
 }
 
 
@@ -444,6 +446,7 @@ footer {
   background-color: #000000;
   padding: 100px 0;
   color: #ffffff;
+  font-size: 16px;
 }
 
 .foterTop {
@@ -472,10 +475,78 @@ footer {
 }
 
 
+@media (max-width: 1480px) {
+  .slogan h2 {
+    font-size: 250px;
+  }
+
+  .part .container>div {
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .fqw {
+    width: 725px;
+    margin-right: 0;
+  }
+
+  .tty {
+    width: 725px;
+    margin-top: 40px;
+  }
+
+  .fqw h6 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1370px) {
+  .fqw {
+    width: 725px;
+    margin-right: 0;
+  }
+
+  .tty {
+    width: 725px;
+    margin-top: 40px;
+  }
+
+  .ffg {
+    width: 300px;
+    margin-right: -70px;
+  }
+
+  .frutyu {
+    width: 211px;
+  }
+
+  .ggg {
+    width: 447px;
+  }
+}
 
 @media (max-width: 1255px) {
   .aboutTitle {
     font-size: 200px;
+  }
+
+  .ffvv h4 {
+    font-size: 19px;
+    width: 300px;
+  }
+
+  .ffvv p {
+    font-size: 13px;
+  }
+
+  .slogan h2 {
+    font-size: 200px;
+    margin-bottom: 40px;
+  }
+
+  .slogan h6 {
+    font-size: 25px;
   }
 
   .pTitle {
@@ -525,11 +596,13 @@ footer {
     object-fit: cover;
     border-radius: 40px;
   }
-.yui{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
+
+  .yui {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
   .boxImg {
     flex-wrap: wrap;
     gap: 30px;
@@ -538,35 +611,177 @@ footer {
   .stat {
     flex-wrap: wrap;
   }
-}
-@media (max-width:1135px){
 
-  .yui{
-    display: inline;
-    width: 300px;
+  .d a h3 {
+    font-size: 25px;
+  }
+
+  .d a p {
+    font-size: 13px;
   }
 }
+
+@media (max-width:1135px) {
+  .stat {
+    gap: 10px;
+  }
+
+  .mjb {
+    width: 650px;
+  }
+
+  .uyij {
+    width: 360px;
+  }
+
+  .yui {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+}
+
 @media (max-width: 1100px) {
-  .aboutTitle{
+
+  .menuList {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .menu button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    position: relative;
+  }
+
+  .menu button span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 2px;
+    transition: .2s ease;
+  }
+
+  .menuOpen button span:nth-child(1) {
+    transform: scaleX(0);
+  }
+
+  .menuOpen button span:nth-child(2) {
+
+    transform: rotate(45deg);
+  }
+
+  .menuOpen button span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
+  .menuOpen button span:nth-child(4) {
+    transform: scaleX(0);
+  }
+
+  .menu button span:nth-child(1) {
+    top: 0;
+  }
+
+  .menu button span:nth-child(2) {
+    top: 20px;
+  }
+
+  .menu button span:nth-child(3) {
+    top: 20px;
+  }
+
+  .menu button span:nth-child(4) {
+    top: 40px;
+  }
+
+  .headerInner {
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  .aboutTitle {
     padding-top: 150px;
   }
-  .imgBig{
+
+  .imgBig {
     margin-top: -80px;
   }
+
   .aboutTitle {
     font-size: 150px;
   }
+
   .pTitle {
     font-size: 22px;
   }
-  .ff{
+
+  .ff {
     margin-top: -150px;
+  }
+
+  .d {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .d .vv,
+  .d .ooi {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1065px) {
+  .ffvv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .uyioo,
+  .uyij {
+    margin-bottom: 20px;
+  }
+
+  .uyij {
+    display: flex;
+    min-width: 800px;
+    margin-right: -17px;
+  }
+
+  .uyij>img {
+    width: 320px;
+  }
+
+  .era {
+    width: 443px;
+    margin-left: 24px;
+  }
+
+  .mjb {
+    width: 786px;
   }
 }
 
 @media (max-width: 980px) {
   .textbox {
     font-size: 60%;
+  }
+
+  .slogan h2 {
+    font-size: 150px;
+    margin-bottom: 60px;
   }
 
   .btnAch img {
@@ -580,6 +795,7 @@ footer {
 
   .stat {
     gap: 30px;
+    justify-content: center;
   }
 }
 
@@ -587,7 +803,6 @@ footer {
   .aboutTitle {
     font-size: 110px;
   }
-
   .imgAch {
     max-width: 214px;
   }
@@ -601,9 +816,35 @@ footer {
   }
 }
 
+@media (max-width:815px) {
+
+  .uyij {
+    min-width: 630px;
+  }
+
+  .uyij {
+    margin-right: 0px;
+  }
+
+  .mjb {
+    width: 630px;
+  }
+}
+
 @media (max-width:750px) {
   .dfg {
     font-size: 23px;
+  }
+.foterTop{
+  margin-right: 20px;
+}
+  .slogan h2 {
+    font-size: 100px;
+    margin-bottom: 90px;
+  }
+
+  .slogan h6 {
+    font-size: 15px;
   }
 
   .qw {
@@ -625,41 +866,217 @@ footer {
     width: 340px;
   }
 }
-@media(max-width: 685px){
-  .stat{
+
+@media(max-width: 685px) {
+  .containerBig>.container {
+    height: 1300px;
+  }
+
+  .stat {
     justify-content: center;
   }
-  .ff{
+
+  .uyij,
+  .uyipo,
+  .uyioo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mjb {
+    width: 440px;
+  }
+
+  .era {
+    width: 440px;
+  }
+
+  .uyij {
+    min-width: 440px;
+  }
+
+  .ff {
     margin-bottom: 35px;
   }
+
+  .era {
+    margin-left: 0;
+  }
+
+  .zxc,
+  .ghbn {
+    width: 430px;
+  }
+
+  .ghbn {
+    margin-left: 0px;
+  }
+
+  .uyij>img {
+    width: 430px;
+  }
 }
-@media(max-width:640px){
-  .dl dt{
+
+@media(max-width: 665px) {
+  .containerBig>.container{
+    height: 1000px;
+  }
+  .uyij>img {
+    width: 250px;
+  }
+
+  .zxc {
+    width: 250px;
+  }
+
+  .era {
+    width: 250px;
+  }
+
+  .ghbn {
+    width: 250px;
+  }
+
+  .ffvv h4 {
+    font-size: 18px;
+  }
+
+  .ffvv p {
+    font-size: 10px;
+  }
+}
+
+@media(max-width:640px) {
+  .fqw {
+    width: 452px;
+  }
+
+  .tty {
+    width: 452px;
+    margin-top: 28px;
+  }
+
+  .fqw h6 {
+    font-size: 28px;
+    margin-bottom: 19px;
+  }
+
+  .fqw p {
+    font-size: 14px;
+  }
+
+  .dl dt {
     font-size: 12px;
   }
-  .dl dd{
+
+  .dl dd {
     font-size: 12px;
   }
 }
+
 @media (max-width: 565px) {
+  .kk {
+    font-size: 30px;
+  }
+
   .aboutTitle {
     font-size: 70px;
   }
-.aboutTitle{
+
+  .aboutTitle {
     padding-top: 200px;
   }
-  .imgBig{
+
+  .imgBig {
     margin-top: -120px;
   }
+
   .pTitle {
     font-size: 14px;
   }
 }
-@media (max-width: 460px){
-  .dl dt{
+
+@media (max-width: 520px) {
+  .slogan h2 {
+    font-size: 60px;
+    margin-bottom: 115px;
+  }
+
+  .slogan h6 {
     font-size: 10px;
   }
-  .dl dd{
+}
+
+@media (max-width: 472px) {
+  .ffg {
+    width: 240px;
+  }
+footer{
+  font-size: 0.7rem;
+}
+.foterBottom{
+  font-size: 0.7rem;
+}
+.foterImg img{
+  width: 40px;
+}
+  .frutyu {
+    width: 164px;
+  }
+
+  .ggg {
+    width: 340px;
+  }
+}
+
+@media (max-width: 460px) {
+  .logoImg {
+    width: 110px;
+  }
+
+  .menu {
+    width: 30px;
+    height: 30px;
+  }
+
+  .dl dt {
     font-size: 10px;
+  }
+
+  .dl dd {
+    font-size: 10px;
+  }
+
+  .menu button span:nth-child(1) {
+    top: 0;
+  }
+
+  .menu button span:nth-child(2) {
+    top: 15px;
+  }
+
+  .menu button span:nth-child(3) {
+    top: 15px;
+  }
+
+  .menu button span:nth-child(4) {
+    top: 28px;
+  }
+  .blof .containerBig .container h3{
+    font-size: 27px;
+  }
+  .uyipo,
+  .uyioo{
+    width: 320px;
+  }
+  .mjb{
+    width: 340px;
+  }
+  .ffvv h4{
+    width: 250px;
+  }
+  .uyij{
+    min-width:min-content;
   }
 }
